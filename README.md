@@ -153,6 +153,10 @@ $env:PYTHONPATH="src"
 python -m unittest discover -s tests
 ```
 
+## License
+
+Agent Flight Recorder is open source software licensed under the MIT License. See [LICENSE](LICENSE).
+
 ## Roadmap
 
 - Policy YAML for team-specific risk rules
