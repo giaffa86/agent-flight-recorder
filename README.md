@@ -50,6 +50,20 @@ Record a command under the active session:
 agent-recorder run -- python -m unittest discover -s tests
 ```
 
+Detect the active session id:
+
+```powershell
+agent-recorder status
+Get-Content .afr\active-session
+```
+
+When running directly from source, prefix the status command the same way as other source commands:
+
+```powershell
+$env:PYTHONPATH="src"
+python -m agent_flight_recorder status
+```
+
 Snapshot the current git state:
 
 ```powershell
