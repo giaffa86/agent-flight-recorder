@@ -1,0 +1,15 @@
+.afr/
+.agents/
+.codex/
+first_prompt.txt
+*_prompt.txt
+prompts/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
